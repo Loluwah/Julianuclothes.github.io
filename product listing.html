@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body poet</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstap.css -->
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+   <!--custom css-->
+    <link rel="stylesheet" href="main.css"/>
+   <!--font-->
+   <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  shadow-lg" style="background-color: #9d3c63; height:60px">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="HomePage.html"><img src="clothing project/mlogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="HomePage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about text-white" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link text-light"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <!--Bread Crumb-->
+    <nav aria-label="breadcrumb" mt-5>
+        <div class="container-fluid bg body-secondary shadow-sm pt-3 pb-1">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Shop</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Accessories</li>
+        </ol>
+      </nav>
+      <!--Image-->
+    <header>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="clothing project/SB 1.jpg"class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img src="clothing project/HP1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    </header>
+      <!--collection-->
+      <section id="collection" class="py-5">
+        <div class="container">
+          <div class="title text-center">
+            <h2 class="position-relative d-inline-block"> Our Collection</h2>
+          </div>
+
+          <div class="row">
+            <div class="d-flex flex-wrap justify-content-center mt-5">
+            <button type= "button" class= "btn bg-danger-subtle m-2 text-dark">All</button>
+            <button type= "button" class= "btn btn-outline-secondary m-2 text-dark">Best Sellers</button>
+            <button type= "button" class= "btn btn-outline-secondary m-2 text-dark">Featured</button>
+            <button type= "button" class= "btn btn-outline-secondary m-2 text-dark">New Arrival</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Product listing-->
+    <!--Dresses-->
+    <div class="collection">
+    <main class="container mt-5 px-4" style="width:fit-content">
+        <h2 class="title">Dresses</h2>
+            <div class="row gx-5">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                <div class="card" style="height:460px; width:335px">
+                    <img src="clothing project/D1a.jpg" style="height:300px">
+                    <div class="card-body">
+                      <h6 class="card-title">Leopard Print Waist Slimming Fashion Dress</h6>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i></div>
+                      <p class="card-text">NGN 15,000</p>
+                      <a href="Dress.html" class="click-here">click-here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card" style="height:460px; width:335px">
+                        <img src="clothing project/D2a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Chiffon PLeated A-line Dress with Polka Dot</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></div>
+                          <p class="card-text">NGN 18,000</p>
+                          <a href="product details.html" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/D3a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Pleated Sleeveless Neck Hanging Print Fashion Dress</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 13,5000</p>
+                          <a href="" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/D4a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Chiffon Fabric with Elastic Waist A-line Skirt Swing Dress </h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 10,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/D5e.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Summer V-neck strap, Wrap hip Dress</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></div>
+                          <p class="card-text">NGN 8,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+    </main>
+
+    <!--Tops-->
+    <main class="container mt-5 px-4">
+        <h2 class="title">Tops</h2>
+            <div class="row gx-5">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                <div class="card" >
+                    <img src="clothing project/j5a.jpg" class="card-img-top" style="height:300px">
+                    <div class="card-body">
+                      <h6 class="card-title">Crop Top with Knot</h6>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-star"></i></div>
+                      <p class="card-text">NGN 8,500</p>
+                      <a href="Tops.html" class="click-here">click-here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/j2x.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Silk O-neck Sleeveless Chic Shirt</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 4,500</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/j4a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Crop Top With Bow</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i></div>
+                          <p class="card-text">NGN 6,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/j1c.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Short Sleeve Casual Tshirt</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 3,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/j3a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Poplin Top With Striped Hem</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i></div>
+                          <p class="card-text">NGN 4,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+    </main>
+
+    <!--Trouser-->
+    <main class="container mt-5 px-4" style="width:fit-content">
+        <h2 class="title">Trousers</h2>
+            <div class="row gx-5">
+              <div id="column"class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                <div class="card">
+                    <img src="clothing project/T1a.jpg" class="card-img-top" style="height:300px">
+                    <div class="card-body">
+                      <h6 class="card-title">Loose Casual Cargo Pants</h6>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i></div>
+                      <p class="card-text">NGN 10,000</p>
+                      <a href="Trouser.html" class="click-here">click-here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="column" class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/T6a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">High Waist Slant Pocket Tailored Trousers</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 12,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div id="column" class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/T3a.png" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Skinny Bell Bottoms Jeans</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></div>
+                          <p class="card-text">NGN 8,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div id="column" class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/T4a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Double Button Blazer With Pants</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></div>
+                          <p class="card-text">NG 15,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div id="column" class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/T5a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">BowKnot High Waist Wide-leg Pants in Black</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 10,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+    </main>
+        <!--Bags-->
+     <main class="container mt-5 px-4" style="width:fit-content">
+                <h2 class="title">Bags</h2>
+                    <div class="row gx-5">
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                        <div class="card">
+                            <img src="clothing project/B1a.jpg" class="card-img-top" style="height:300px">
+                            <div class="card-body">
+                              <h6 class="card-title">Chloe Drew Shoulder Bag</h6>
+                              <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i></div>
+                              <p class="card-text">NGN 12,500</p>
+                              <a href="Bags.html" class="click-here">click-here</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                            <div class="card">
+                                <img src="clothing project/B2c.jpg" class="card-img-top" style="height:300px">
+                                <div class="card-body">
+                                  <h6 class="card-title">Pleated Cloud Bag</h6>
+                                  <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i></div>
+                                  <p class="card-text">NGN 8,5000</p>
+                                  <a href="#" class="click-here">click-here</a>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                            <div class="card">
+                                <img src="clothing project/B3a.jpg" class="card-img-top" style="height:300px">
+                                <div class="card-body">
+                                  <h6 class="card-title">Metal Decor Flap Saddle Bag</h6>
+                                  <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i></div>
+                                  <p class="card-text">NGN 10,000</p>
+                                  <a href="#" class="click-here">click-here</a>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                            <div class="card">
+                                <img src="clothing project/B4a.jpg" class="card-img-top" style="height:300px">
+                                <div class="card-body">
+                                  <h6 class="card-title">Twirly Scarf Decor Bucket Bag</h6>
+                                  <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i></div>
+                                  <p class="card-text">NGN 11,000</p>
+                                  <a href="#" class="click-here">click-here</a>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                            <div class="card">
+                                <img src="clothing project/B5a.jpg" class="card-img-top" style="height:300px">
+                                <div class="card-body">
+                                  <h6 class="card-title">Pearl Chain Bow Spice Underarm Bag</h6>
+                                  <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i></div>
+                                  <p class="card-text">NGN 15,000</p>
+                                  <a href="#" class="click-here">click-here</a>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+     </main>
+     <!--Shoes-->
+     <main class="container mt-5 px-4" style="width:fit-content">
+        <h2 class="title">Shoes</h2>
+            <div class="row gx-5">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                <div class="card">
+                    <img src="clothing project/S1a.jpg" class="card-img-top" style="height:300px">
+                    <div class="card-body">
+                      <h6 class="card-title">Spring Autumn Elegant Pointed Toe Satin Pumps</h6>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></div>
+                      <p class="card-text">NGN 30,500</p>
+                      <a href="Shoes.html" class="click-here">click-here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/S2a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Shein Tie leg Design Strappy Flatform Sandals</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i></div>
+                          <p class="card-text">NGN 25,000</p>
+                          <a href="shein shoes.html" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/S5a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Party Pearl Low heeled Sequined Cloth Boat Shoes</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN7,000</p>
+                          <a href="productpages.html" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/S4b.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">ZARA's Leather Wedge Sandals</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i></div>
+                          <p class="card-text">NGN 18,000</p>
+                          <a href="productpages.html" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/S3a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Shein Chunky Heeled Ankle Strap Sandals</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i></div>
+                          <p class="card-text">NGN 15,000</p>
+                          <a href="productpages.html" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+     </main>      
+    <!--Perfumes-->
+   <main class="container mt-5 px-4" style="width:fit-content">
+        <h2 class="title">Perfumes</h2>
+            <div class="row gx-5">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                <div class="card">
+                    <img src="clothing project/P6b.jpg" class="card-img-top" style="height:300px">
+                    <div class="card-body">
+                      <h6 class="card-title">Good Girl Eau de Parfum by Carolina Herrera</h6>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                      <p class="card-text">NGN 15,000</p>
+                      <a href="perfume.html" class="click-here">click-here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/P2a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Miss Dior Eau de Parfum- Blooming Bouquet</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></div>
+                          <p class="card-text">NGN 20,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/P3a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Sauvage Eau de Parfum by Dior</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i></div>
+                          <p class="card-text">NGN 17,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/P1a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">Flora by Gucci- Gorgeous Gardenia</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i></div>
+                          <p class="card-text">NGN 20,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                       <div class="shadow mb-5 bg-body-tertiary border-opacity-10" style=" width:335px">
+                    <div class="card">
+                        <img src="clothing project/P4a.jpg" class="card-img-top" style="height:300px">
+                        <div class="card-body">
+                          <h6 class="card-title">LIBRE, Eau De Parfum by Yves Saint Laurent</h6>
+                          <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></div>
+                          <p class="card-text">NGN 23,000</p>
+                          <a href="#" class="click-here">click-here</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+    </main>  
+    </div>
+
+
+    <!--reviews-->
+    <div class="reviews">
+      <div class="small-container mt-5 px-4 pb-5">
+        <h1 class="text-center">What our shoppers are saying about us</h1>
+        <br>
+        <div class="row justify-content-center">
+         <div class="col-3">
+           <i class="fa fa-quote-left"></i>
+           <p> The dresses were absolutely gorgeous and I enjoyed wearing them to my special occassions.</p>
+           <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+          </div>
+          <img src="clothing project/user 2.jpg">
+          <h4>Amanda Udeh</h4>
+         </div>
+         <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p> Really appreciate the timely delivery. The trousers fit snugly and pair really well with the bow bag.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+         </div>
+         <img src="clothing project/user 1.jpg">
+         <h4>Sinmisade Olugbodi</h4>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p> I Love how easily I can shop on this platform. You guys are sincerely amazing.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+         </div>
+         <img src="clothing project/user 3.jpg">
+         <h4>Fatima Usman</h4>
+        </div>
+        </div>
+      </div>
+    </div>
+ <!--footer-->
+ <footer class="text-center text-dark p-4" style="background-color: #fcc9dd">
+  <div class="row gx-4">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <img src="clothing project/logo 2.jpg">
+      <p class="text-dark">We Strive to create an apparel company that can offer superior designs, quality and value to our customers.</p>
+      <p class="text-dark">And we aim to achieve this, by providing our customers with a unique and desirable product with the greatest standard of service.</p>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <h4 class="pt-4" style="color:#9d3c63">Contacts</h4>
+        <p class="text-dark">No 34 Umuleri Str, Independence Layout, Enugu, 400241, Enugu State, Nigeria</p>
+        <p class="text-dark border-bottom border-danger" style="border:#9d3c63">info@bodypoet.com</p>
+        <p class="text-dark">+2348106873270 +2348129725322</p>
+
+    </div> 
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <h4 class="pt-4" style="color:#9d3c63">
+        Links
+      </h4>
+      <p class="text-dark">Home</p>
+      <p class="text-dark">Products</p>
+      <p class="text-dark">Blog</p>
+      <p class="text-dark">About</p>
+      <p class="text-dark">Contacts</p>
+
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <h4 class="pt-4" style="color:#9d3c63">Newsletter</h4>
+      <input class="form-control" type="text" value="Enter your email address..." aria-label="readonly input example" readonly>
+      <button type= "button" class= "btn m-2" style="background-color:#d5437e">Submit</button>
+      <br>
+      <br>
+    <div class="icons">
+      <i class="fa-brands fa-facebook fa-fw"></i>
+      <i class="fa-brands fa-instagram fa-fw"></i>
+      <i class="fa-brands fa-square-twitter fa-fw"></i>
+      <i class="fa-brands fa-square-snapchat fa-fw"></i>
+    </div>
+    </div>
+  </div>
+    <br>
+  <p class="text-dark border-top border-danger pt-3" style="border:#9d3c63"> Designed by bodypoet designers| 2023</p>
+</footer>  
+
+    <!--jquery-->
+    <script src="js/jquery-3.7.0"></script>
+     <!-- Bootstap.js -->
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <!--custom js-->
+    <script src="js/script.js"></script>
+</body>
+</html>

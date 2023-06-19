@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background:radial-gradient(#fff, #d5437e)
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Mtitle{
+  color:#ec2388;
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+.ptitle{
+  color:#9d3c63;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.title{
+  text-align: left;
+  margin:0 auto 80p;
+  position: relative;
+  line-height: 60px;
+  color:#9d3c63;
+  font-family: cursive ;
+}
+
+.card{
+  width: 335px;
+  height: 460px;
+  border-radius: 15px;
+  border-color: #fff;
+  box-shadow: 0 0 25px 0px rgba(0,0,0,0.1);
+  transition: transform 0.5s;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.shadow{
+  border-radius: 15px;
+}
+.shadow:hover{
+  transform: translateY(-10px);
+}
+.click-here{
+  color: #d5437e;
+}
+/*--shoes--*/
+h2{
+  color: #9d3c63;
+  font-weight: normal;
+}
+h6{
+  color: #9d3c63;
+  font-weight: normal;
+}
+
+.rating{
+  color:  #9d3c63
+}
+
+/*--transition--*/
+.reviews{
+  padding-top: 100px;
+}
+.reviews .col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.reviews .col-3 img{
+  width: 70px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.reviews .col-3:hover{
+  transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+  font-size: 34px;
+  color: #d5437e;
+}
+/*---features--*/
+.features{
+  justify-content: center;
+}
+/*---footer--*/
+.h4{
+  color:#9d3c63
+}
+.fa-brands{
+  justify-content: space-between;
+  font-size: 30px;
+  color: #d5437e
+}
+.border{
+  border-top:#9d3c63;
+}
+#grad {
+  background-color: linear-gradient(#9d3c63, #d5437e);
+}
+/*---cart items----*/
+.cart-page{
+  margin:80px;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  text-align: left;
+  padding: 5px ;
+  color:#fff;
+  background: #d5437e;
+  font-weight:normal;
+}
+td{
+  padding:10px 15px;
+}
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a{
+  color:#d5437e;
+  font-size:12px;
+}
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price{
+  display:flex;
+  justify-content:flex-end;
+}
+.total-price table{
+  border-top: 3px solid #9d3c63;
+  width:100%;
+  max-width: 600px;
+}
+td:last-child{
+  text-align: right;
+}
+th:last-child{
+  text-align: right;
+}
+
+/*---index----*/
+
+.bg Image{
+    background-image: url(clothing\ project/SB-1);
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+}

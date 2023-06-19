@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body poet</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstap.css -->
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+   <!--custom css-->
+    <link rel="stylesheet" href="main.css"/>
+   <!--font-->
+   <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  shadow-sm" style="background-color: #fff; height:60px">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark" href="HomePage.html"><img src="clothing project/mlogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="HomePage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about text-dark" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-dark">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-dark">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link text-light"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!---Cart Items Details--->
+  <br>
+  <br>
+  <table>
+    <tr>
+    <th>&nbsp; &nbsp;&nbsp;Product</th>
+    <th>Quantity</th>
+    <th>Subtotal</th>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="clothing project/B1a.jpg">
+            <div>
+            <p>Long SLeeve Shirt</p>
+            <small>Price: NGN 12,500</small>
+            <br>
+            <a href="">Remove</a>
+            </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>NGN 12,500</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="clothing project/D2a.jpg">
+            <div>
+            <p>Chiffon Pleated A-line Dress with Polka Dot</p>
+            <small>Price: NGN 18,000</small>
+            <br>
+            <a href="">Remove</a>
+            </div>
+            </div>
+        </td>
+        <td><input type="number" value="2"></td>
+        <td>NGN 18,000</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="clothing project/S2b.jpg">
+            <div>
+            <p>Shein Tie Leg Design Strappy Flatform Sandals</p>
+            <small>Price: NGN 25,000</small>
+            <br>
+            <a href="">Remove</a>
+            </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>NGN 25,000</td>
+    </tr>
+  </table>
+  <div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td> NGN 73,500</td>
+        </tr>
+        <tr>
+            <td>Discount</td>
+            <td> NGN 3,500</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td> NGN 70,000</td>
+        </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+   <!--footer-->
+ <footer class="text-center text-dark p-4" style="background-color: #fcc9dd">
+    <div class="row gx-4">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <img src="clothing project/logo 2.jpg">
+        <p class="text-dark">We Strive to create an apparel company that can offer superior designs, quality and value to our customers.</p>
+        <p class="text-dark">And we aim to achieve this, by providing our customers with a unique and desirable product with the greatest standard of service.</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <h4 class="pt-4" style="color:#9d3c63">Contacts</h4>
+          <p class="text-dark">No 34 Umuleri Str, Independence Layout, Enugu, 400241, Enugu State, Nigeria</p>
+          <p class="text-dark border-bottom border-danger" style="border:#9d3c63">info@bodypoet.com</p>
+          <p class="text-dark">+2348106873270 +2348129725322</p>
+  
+      </div> 
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <h4 class="pt-4" style="color:#9d3c63">
+          Links
+        </h4>
+        <p class="text-dark">Home</p>
+        <p class="text-dark">Products</p>
+        <p class="text-dark">Accessories</p>
+        <p class="text-dark">Blog</p>
+        <p class="text-dark">About</p>
+        <p class="text-dark">Contacts</p>
+  
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <h4 class="pt-4" style="color:#9d3c63">Newsletter</h4>
+        <input class="form-control" type="text" value="Enter your email address..." aria-label="readonly input example" readonly>
+        <button type= "button" class= "btn m-2" style="background-color:#d5437e">Submit</button>
+        <br>
+        <br>
+      <div class="icons">
+        <i class="fa-brands fa-facebook fa-fw"></i>
+        <i class="fa-brands fa-instagram fa-fw"></i>
+        <i class="fa-brands fa-square-twitter fa-fw"></i>
+        <i class="fa-brands fa-square-snapchat fa-fw"></i>
+      </div>
+      </div>
+    </div>
+      <br>
+    <p class="text-dark border-top border-danger pt-3" style="border:#9d3c63"> Designed by bodypoet designers| 2023</p>
+  </footer>  
